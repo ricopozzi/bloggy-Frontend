@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.titleInput{
+    width: 30vh;
+    margin-top: 5vh;
+}
+
+
+.bodyInput{
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    
+}
+
+.formContainer{
+    margin-top: 10vh;
+    margin-left: 40%;
+    width: 50vh;
+
+}
+
+.postb{
+    width: 5vh;
+    margin-top: 2vh;
+}

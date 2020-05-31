@@ -1,0 +1,63 @@
+*{
+    background: #212121;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    background:none;
+    margin-top: 3vh;
+    list-style-type: none;
+    margin-left: 1vh;
+}
+
+.ListLink{
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+
+li :hover{
+    color: #0d7377;
+}
+.side-container{
+    display: flex;
+    flex-direction: column;
+    background: #323232;
+    border-right: solid 2px rgba(255, 255, 255, 0.24);
+    width: 20vh;
+    height: 100vh;
+
+}
+
+.first-Header{
+    display: flex;
+    height: 10vh;
+    background: #14ffec;
+}
+
+.toCreatePost{
+    color: #14ffec;
+    font-weight: 600;
+    height: 50px;
+    font-size: 15px; 
+    border-radius: 5px;  
+    text-decoration: none;
+    margin-top: 5vh;
+    margin-left: 1.3vh;
+    background: none;
+}
+
+.toCreatePost-Container{
+    height: 5vh;
+    background: #212121;
+    width: 10vh;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+
+}
+     
